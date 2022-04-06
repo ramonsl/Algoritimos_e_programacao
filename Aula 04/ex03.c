@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 int main () {
-  
+ 
 
   /*Declara as variáveis de peso e soma.*/
   float peso1, peso2, peso3, nota1, nota2, nota3, somaPesos, mediaPonderada, resultado;

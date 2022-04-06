@@ -3,10 +3,15 @@
 #include <stdlib.h>
 
 int main() {
- 
+ /*
+  /*
+  Faça um programa que receba o salário de um funcionário e o
+   percentual de aumento, calcule e mostre
+o valor do aumento e o novo salário.
+  */
 
-  float salario, novoSalario;
-  int percentualAumento, aumento;
+  float salario, novoSalario, aumento;
+  int percentualAumento;
 
   /*Recebe dados do usuario*/
   printf("Salario: $");
@@ -19,7 +24,7 @@ int main() {
   novoSalario = salario + aumento;
 
   /*Mostra resultado na tela.*/
-  printf("Valor do aumento: $%d\n", aumento);
+  printf("Valor do aumento: $%.2f\n", aumento);
   printf("Novo salario %.2f\n", novoSalario);
   return 0;
 }
