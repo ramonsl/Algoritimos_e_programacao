@@ -2,12 +2,18 @@
 #include <math.h>
 #include <stdlib.h>
 
+//biblioteca para caracteres especiais
+//#include <windows.h>
+
 
 int main() {
 /*
 Faça um programa que receba o valor de um depósito e o valor da taxa de juros, calcule e mostre o
 valor do rendimento e o valor total depois do rendimento.*/
- 
+ /// setlocale(LC_ALL,NULL) ;
+// codigo para cacteres especiais
+ // UINT CPAGE_UTF8 = 65001;
+  //SetConsoleOutputCP(CPAGE_UTF8);
 
   float deposito,valorRendimento,valorTotal;
   int taxaJuros;
