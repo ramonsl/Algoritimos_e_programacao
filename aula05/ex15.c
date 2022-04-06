@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <windows.h>
+
 
 int main() {
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8);
+
 
   float precoFabrica, perceLucro, percImposto, lucroDistribuidor, imposto, precoFinal;
   printf("Digite o preço de fábrica do veiculo: $");

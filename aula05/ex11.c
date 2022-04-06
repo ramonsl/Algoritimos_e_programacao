@@ -2,13 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 #include <locale.h>
-#include <windows.h>
+
 
 
 int main() {
-   /*Código para mostrar caracteries especiais no console.*/
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8);
+
   
   int numero;
   printf("Digite um número: ");

@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <windows.h>
 
 int main() {
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8);
 
   float pesoRacao, racaoDiaria, gastoRacao, quantidadeRestante;
   printf("Digite o peso do saco de ração: Kg");

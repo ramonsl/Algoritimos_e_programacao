@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <windows.h>
+
 
 int main() {
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8); 
+
   float salario, cheque1, cheque2, cpmf1, cpmf2;
 
   printf("Valor do salário depositado: $");

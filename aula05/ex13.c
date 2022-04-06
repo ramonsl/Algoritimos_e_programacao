@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <windows.h>
 
 int main() {
-  /*Código para mostrar caracteries especiais no console.*/
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8);
+
 
   float pes, polegada, jarda, milha;
   printf("Digite uma medida em pes: ");

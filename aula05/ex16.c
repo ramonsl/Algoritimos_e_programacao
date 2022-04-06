@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <windows.h>
+
 
 
 int main() {
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8);
+  
 
   float salarioMinimo, horasTrabalhadas, valorHora, salarioBruto, imposto, salarioAreceber;
   printf("Digite o salario minimo: $");
