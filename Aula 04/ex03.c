@@ -3,12 +3,9 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <windows.h>
 
 int main () {
-  /*Imprimir acentuação no terminal*/
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8);
+  
 
   /*Declara as variáveis de peso e soma.*/
   float peso1, peso2, peso3, nota1, nota2, nota3, somaPesos, mediaPonderada, resultado;

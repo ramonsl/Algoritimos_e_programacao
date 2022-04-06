@@ -3,12 +3,10 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <windows.h>
 
 int main() {
   /*Imprimir acentuação no terminal*/
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8);
+
 
   int n1, n2, n3, n4;
   int soma;

@@ -4,13 +4,11 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <windows.h>
+
 
 /* Lendo notas informadas pelo usuario e atribuindo a respectiva váriável*/
 int main() {
-  /*Imprimir acentuação no terminal*/
-  UINT CPAGE_UTF8 = 65001;
-  SetConsoleOutputCP(CPAGE_UTF8);
+
 
   /*recebendo dados do usuário e atribuindo nas respectivas variáveis*/
   float ap1;
