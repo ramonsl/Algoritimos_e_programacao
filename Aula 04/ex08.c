@@ -26,6 +26,6 @@ valor do rendimento e o valor total depois do rendimento.*/
    valorRendimento = deposito - (deposito - (deposito*taxaJuros/100));
    valorTotal = deposito + valorRendimento;
 
-  printf("O valor do rendimento é $%.2f reais e o total do valor depositado após o rendimento ficou $%.2f reais\n", valorRendimento, valorTotal);
+  printf("O valor do rendimento é %% $%.2f reais e o total do valor depositado após o rendimento ficou $%.2f reais\n", valorRendimento, valorTotal);
   return 0;
 }
