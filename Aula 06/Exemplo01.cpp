@@ -1,7 +1,7 @@
 /*SOMANDO VALORES*/
 
 #include <stdio.h>
-
+#include <math.h>
 
 int main() {
 
@@ -15,44 +15,24 @@ printf("Digite sua nota de AS\n");
 scanf("%f%*c",&aps);
 printf("Digite seu semestre\n");
 scanf("%d%*c",&semestre);
-float media=ap1+ap2+aps;
-printf("Sua média é:%.2f\n", media);
-
-if(media>=7){
-    printf("Vc foi aprovado\n");
-    if(media>9){
-        printf("Você está de SUPER parabens!!!!!!");
+float media=(ap1+ap2+aps)/3;
+printf("Sua média é:%.2f !\n", media);
+if(media>=7)  { //media=7.0   7.0>=7 ? TRUE
+    printf("Você foi aprovado !\n");//ela so acontece quando a condição é verdade
+    printf("Parabens !\n");//ela so acontece quando a condição é verdade 
+    if(semestre==1){
+        printf("Você vai para o segundo semestre");
     }else{
-        printf("Você está de  parabens!!!!!!");
-    }
-
-}else if(media >6 && media <7){
-        printf("Vc pegou recuperação\n");
-}else if(media < 3){
-        printf("Vc foi reprovado  sumariamente\n");
-}else{
-    printf("Vc foi reprovado\n");
-    printf("refaça sua matricula!\n");
-}
-  ////saida do if 
+               printf("Você vai para o proximo semestre");
  
-switch (semestre){
-case 1:{
-     printf("Semestre 01");
-    break;
+    }
+} else if ( (media>=5) && (media <7) ){  // && E/AND || OR
+      printf("Você vai precisar fazer exame!!!!!\n");//ela so acontece quando a condição é verdade
+}else{
+      printf("Você foi reprovado !\n");//ela so acontece quando a condição é verdade
 }
-case 2:{
-    printf("Semestre 02");
-    break;
-}
-    
-default:{
-  printf("Outro semestre");  
-    break;
+printf("Feliz Férias");
 
-}
-  
-}
 
-return 0;
+
 }
