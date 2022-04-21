@@ -13,8 +13,8 @@ int main() {
   jarda = pes / 3;
   milha = jarda / 1.760;
 
-  printf("Letra %.1f\n", polegada);
-  printf("Letra %.1f\n", jarda);
-  printf("Letra %.1f\n", milha);
+  printf("Letra a) %.1f\n", polegada);
+  printf("Letra b) %.1f\n", jarda);
+  printf("Letra c) %.1f\n", milha);
   return 0;
 }
