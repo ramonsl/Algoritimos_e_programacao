@@ -1,12 +1,8 @@
 #include <stdio.h>
 #include <math.h>
-#include <windows.h>
 
 int main(){
-	UINT CPAGE_UTF8 = 65001;
-	UINT CPAGE_DEFAULT = GetConsoleOutputCP();
-	SetConsoleOutputCP(CPAGE_UTF8);
-    float alt, pes;
+ float alt, pes;
     char sexo;
     printf("Insira seu sexo \n(H para Homem/M para Mulher)- ");
     scanf("%c%*c", &sexo);

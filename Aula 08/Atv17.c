@@ -7,7 +7,7 @@ int main(){
 	scanf("%f%*c", &Senha);
 
 	if (Senha == 4531){
-		printf("Acesso liberado...");
+		printf("Acesso liberado...\n");
 	}else{
 		printf("Acesso Negado...");
 
