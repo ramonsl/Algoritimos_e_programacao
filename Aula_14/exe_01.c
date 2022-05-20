@@ -1,4 +1,4 @@
-#include <stdio.h> /*Adição da biblioteca imput and output*/
+#include <stdio.h> /*Adição da biblioteca input and output*/
 int main(){ 
 
     int i;
