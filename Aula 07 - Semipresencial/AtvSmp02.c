@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-#include <windows.h>
 
 int main(){
-UINT CPAGE_UTF8 = 65001;
-UINT CPAGE_DEFAULT = GetConsoleOutputCP();
-SetConsoleOutputCP(CPAGE_UTF8);
 
     float not1, not2, med;
     printf("Insira as duas notas: \n");
