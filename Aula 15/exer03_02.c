@@ -13,7 +13,7 @@ int main()
     for (i = 0; i < 10; i++)
     {
         printf("Digite %dº posição vetor valor\n", i + 1);
-           scanf("%lf%*c", &valor[i]);
+        scanf("%lf%*c", &valor[i]);
         quad[i] = (pow(valor[i],2)); // com pow resultado ficou quadrado -1
     }
     for (i = 0; i < 10; i++)

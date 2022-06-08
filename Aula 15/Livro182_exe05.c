@@ -7,6 +7,7 @@ int main()
       printf("Digite o Código do aluno de Logica\n");
       scanf("%d%*c",&tLogica[i]);
     }
+    
       for (int i = 0; i < 3; i++){
       printf("Digite o Código do aluno de Linguagem\n");
       scanf("%d%*c",&tLinguagem[i]);
