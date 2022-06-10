@@ -12,7 +12,6 @@ int main()
         scanf("%d%*c",&codigoCliente);
         if(codigoCliente!=0){
             printf("Bem-vindo cliente %d\n", codigoCliente);
-
             printf("Qual codigo você deseja??\n");
             scanf("%d%*c",&codProd);
            
